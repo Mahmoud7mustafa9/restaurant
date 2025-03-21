@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import menuimg from "./../../images/Asset 7@4x.png"
 
 function Home (){
 return <div className="homy">
@@ -9,7 +10,7 @@ return <div className="homy">
     <p> we are here for you </p>
     </div>
     <div className="pic">
-        <img src="../images/Asset 7@4x.png" alt="kl" /> 
+        <img src={menuimg} alt="kl" /> 
     </div>
     </div>
 

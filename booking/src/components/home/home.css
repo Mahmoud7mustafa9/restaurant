@@ -4,11 +4,20 @@
     margin: auto;
 justify-content: center;
 text-align: center;
+overflow:visible;
+height: 50vh;
 }
-.homy.pic {
-    width: 30px;
-    height: 40px;
-    border-style:solid ;
-    border-width: 5px;
-    border-color: black;
+.homy .pic {
+    width: 150px;
+    height:250px;
+    position:absolute; 
+    bottom: 30%;
+    left: 20%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homy .pic img {
+    width: 50px;
 }

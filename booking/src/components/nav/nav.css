@@ -7,11 +7,22 @@
     border-bottom-right-radius: 20% ;
     border-bottom-left-radius: 20% ;
 }
-.bar.logo {
+.bar .logo {
 width: 40px;
-height: 50px;
+height: 40px;
 border-radius: 30%;
-border: 5px black;
+border: 1px black;
+background-color: rgba(223, 127, 59, 0.658);
+align-items: center;
+justify-content: center;
+display: flex;
+margin: 4px 1px 2px 4px;
+
+}
+.bar .logo img {
+    width: 20px;
+    height: 30px;
+    margin: auto;
 }
 .bar ul {
     display: flex;
